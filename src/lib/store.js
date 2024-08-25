@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { mockStore, requiredCerts } from '../localconf';
-import explorerReducer from './explorer/slice';
+import { mockStore, requiredCerts } from './localconf'
+import explorerReducer from './redux/explorer/slice';
 
 const preloadedState = {
   user:
