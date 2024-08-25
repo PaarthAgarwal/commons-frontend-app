@@ -1,7 +1,16 @@
+## GSoC 2024 Data for the Common Good
+This repository is part of my Google Summer of Code (GSoC) 2024 project, where I evaluated and compared the new Gen3 frontend framework with the existing approach used in the PCDC Data Portal. The goal was to demonstrate the capabilities and benefits of the new framework by migrating the Explorer Redux functionality from the PCDC Data Portal to this new Commons Frontend App.
 
+## Objectives
++ Evaluation of New Framework: Compare the new Gen3 frontend framework with the current implementation used in the PCDC Data Portal.
++ Migration Demonstration: Successfully migrate the Explorer Redux logic from the PCDC Data Portal to the new Commons Frontend App.
 
-This is the base REPOSITORY for Gen3.2 data commons.
+[Link to report](https://docs.google.com/document/d/1pUsWnDSL0s64Xs_CpEDdr-zksRRt_SJpqRjhKivA330/edit?usp=sharing).
+A detailed report comparing the existing frontend approach with the new Gen3 framework, highlighting key differences in performance, scalability, and ease of use.
 
+## Key Features
++ Redux Integration: Implemented Redux using @reduxjs/toolkit, ensuring state management is streamlined and maintainable.
++ Explorer Redux Migration: Successfully migrated the Explorer Redux from the PCDC Data Portal to the Commons Frontend App, demonstrating the new framework's capabilities.
 
 ## Getting Started
 Gen3 Data Commons using the Gen3 Frontend Framework is a matter of the following:
