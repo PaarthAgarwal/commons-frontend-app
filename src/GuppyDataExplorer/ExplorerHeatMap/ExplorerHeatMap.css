@@ -1,0 +1,9 @@
+.explorer-heat-map {
+  background-color: var(--g3-color__white);
+  padding-bottom: 26px;
+}
+
+.explorer-heat-map__title--align-center {
+  padding: 26px;
+  text-align: center;
+}

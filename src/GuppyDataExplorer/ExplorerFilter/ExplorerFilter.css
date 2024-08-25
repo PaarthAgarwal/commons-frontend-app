@@ -1,0 +1,60 @@
+.explorer-filter__title-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.explorer-filter__title {
+  display: inline;
+  margin-bottom: 1rem;
+}
+
+.explorer-filter__unselect-button {
+  height: auto;
+  width: auto;
+  background: none;
+  border: none;
+  padding: none;
+  color: var(--g3-color__gray);
+  font-weight: var(--g3-font__semi-bold-weight);
+  margin-left: 10px;
+}
+
+.explorer-filter__unselect-button:hover {
+  color: var(--g3-color__bg-coal);
+}
+
+.explorer-filter__unselect-button::before {
+  border-left: 1px solid var(--g3-color__lightgray);
+  content: '';
+  height: 1.5rem;
+  margin-right: 10px;
+}
+
+.explorer-filter__combine-mode {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.explorer-filter__combine-mode > label {
+  padding: 0 4px;
+  margin-left: 8px;
+  background-color: var(--g3-color__silver);
+  border: 1px solid var(--g3-color__silver);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.explorer-filter__combine-mode > label.active {
+  border-color: var(--pcdc-color__secondary);
+}
+
+.explorer-filter__combine-mode > label.active,
+.explorer-filter__combine-mode > label:hover {
+  background-color: var(--g3-color__white);
+}
+
+.explorer-filter__combine-mode input[type='radio'] {
+  display: none;
+}
