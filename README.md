@@ -5,8 +5,11 @@ This repository is part of my Google Summer of Code (GSoC) 2024 project, where I
 + Evaluation of New Framework: Compare the new Gen3 frontend framework with the current implementation used in the PCDC Data Portal.
 + Migration Demonstration: Successfully migrate the Explorer Redux logic from the PCDC Data Portal to the new Commons Frontend App.
 
-[Link to report](https://docs.google.com/document/d/1pUsWnDSL0s64Xs_CpEDdr-zksRRt_SJpqRjhKivA330/edit?usp=sharing).
+## Important Links
 A detailed report comparing the existing frontend approach with the new Gen3 framework, highlighting key differences in performance, scalability, and ease of use.
++ [Link to Internship Presentation](https://www.canva.com/design/DAGOvEinnXs/u1_2fd0RikYtqTb4WDXJDw/edit?utm_content=DAGOvEinnXs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
++ [Link to report](https://docs.google.com/document/d/1pUsWnDSL0s64Xs_CpEDdr-zksRRt_SJpqRjhKivA330/edit?usp=sharing)
+
 
 ## Key Features
 + Redux Integration: Implemented Redux using @reduxjs/toolkit, ensuring state management is streamlined and maintainable.
